@@ -156,3 +156,36 @@ footer {
     padding: 1.5rem;
     text-align: center;
 }
+
+@media (max-width: 700px){
+    .nav-bar ul{
+        grid-template-columns: 1fr;
+    }
+
+    .top-container{
+        grid-template-areas:
+            'showcase showcase'
+            'top-box-a top-box-b';
+    }
+
+    .boxes {
+        grid-template-columns: 1fr;
+    }
+
+    .info {
+        grid-template-columns: 1fr;
+    }
+
+    .info .btn {
+        display: block;
+    }
+}
+
+@media (max-width: 500px){
+    .top-container{
+        grid-template-areas:
+            'showcase'
+            'top-box-a'
+            'top-box-b';
+    }
+}
