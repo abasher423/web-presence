@@ -126,3 +126,15 @@ img {
     padding: 1.5rem;
     box-shadow: var(--shadow);
 }
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.info div {
+    background-color: var(--primary);
+    box-shadow: var(--shadow);
+    padding: 1.2rem;
+}
