@@ -107,3 +107,22 @@ img {
     color: var(--light);
     padding: 0.8rem;
 }
+
+.btn:hover {
+    background-color: var(--light);
+    color: var(--dark);
+    box-shadow: var(--shadow);
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.box {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+}
